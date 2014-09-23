@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference android:title="Mouse Sensibility" android:entries="@array/mouse_sens_values" android:key="MOUSE_SENSIBILITY" android:entryValues="@array/mouse_sens_values" android:defaultValue="1" android:dialogTitle="Mouse Sensibility"/>
+    <ListPreference android:entries="@array/keys_name" android:entryValues="@array/keys_code" android:dialogTitle="Button A" android:key="BUTTON_A_KEY" android:title="Button A Key" android:defaultValue="{ENTER}"/>
+    <ListPreference android:entries="@array/keys_name" android:dialogTitle="Arrow Up Key" android:entryValues="@array/keys_code" android:key="ARROW_UP_KEY" android:title="Arrow Up Key" android:defaultValue="{UP}"/>
+    <ListPreference android:entries="@array/keys_name" android:dialogTitle="Arrow Down Key" android:entryValues="@array/keys_code" android:key="ARROW_DOWN_KEY" android:title="Arrow Down Key" android:defaultValue="{DOWN}"/>
+    <ListPreference android:entries="@array/keys_name" android:dialogTitle="Arrow Right Key" android:entryValues="@array/keys_code" android:title="Arrow Right Key" android:key="ARROW_RIGHT_KEY" android:defaultValue="{RIGHT}"/>
+    <ListPreference android:entries="@array/keys_name" android:dialogTitle="Arrow Left Key" android:entryValues="@array/keys_code" android:title="Arrow Left Key" android:key="ARROW_LEFT_KEY" android:defaultValue="{LEFT}"/>
+    
+    
+
+</PreferenceScreen>
